@@ -1,0 +1,165 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+input{
+	margin-right: 2rem;
+}
+#title{
+	font-size: 3.5rem;
+	color: #74d2e7;
+}
+span{
+	color: #ff9933;
+}
+#cityName{
+	font-size: 3rem;
+	/* margin-top: 2.5rem; */
+}
+#temp{
+	font-size: 6rem;
+}
+#tempDetails{
+	display: flex;
+	font-size: 1.5rem;
+}
+#description{
+	font-size: 2.2rem;
+}
+#img{
+	background-repeat: no-repeat;
+	width: 5rem;
+	height: 5rem;
+}
+img{
+	width: 4rem;
+	height: 4rem;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+#box{
+	margin-top: 3rem;
+	background-color: white;
+	color: dodgerblue;
+	width: 15rem;
+	height: 2rem;
+	margin: 1rem;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#boxes{
+	display: flex;
+	justify-content: center;
+}
+.row{
+	color: white;
+}
+#cards{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	background: transparent;
+}
+.card{
+	background: transparent;
+}
+#cardDetails{
+	color: white;
+}
+.card-text{
+	text-align: center;
+	font-size: 2rem;
+}
+#img1{
+	width: 3rem;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#img2{
+	width: 3rem;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#img3{
+	width: 3rem;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#img4{
+	width: 3rem;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#img5{
+	width: 3rem;
+	height: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+@media all and (max-width: 600px) {
+	#title{
+		text-align: center;
+		font-size: 3rem;
+	}
+	#cityDetails{
+		text-align: center;
+	}
+	#img{
+		display: block;
+		margin-left: 7.5rem;
+	}
+	#temp{
+		font-size: 4rem;
+		text-align: center;
+	}
+	#tempDetails{
+		justify-content: center;
+	}
+	#box{
+		margin: 0.7rem;
+		height: 4rem;
+	}
+	#boxes{
+		margin-top: 2rem;
+	}
+	#cards{
+		display: grid;
+		justify-content: center;
+	}
+	.card{
+		margin-bottom: 1rem;
+	}
+	form{
+		display: flex;
+		justify-content: center;
+	}
+	button{
+		margin-top: 1rem;
+	}
+	input{
+		margin: 1rem;
+	}
+	body{
+		background-size: cover;
+	}
+}
+@media all and (max-width: 750px){
+	#cards{
+		display: grid;
+		justify-content: center;
+	}
+	.card{
+		margin-bottom: 1rem;
+	}
+}

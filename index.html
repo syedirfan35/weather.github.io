@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<title>Weather By Api</title>
+</head>
+<body>
+<div class="container" id="header">
+	<div class="row">
+		<div class="col-sm-6 mt-3">
+			<h3 id="title"><img src="images/title.svg" alt="titl4">Weather<br><span>.info</span></h3>
+		</div>
+		<div class="col-sm-6">
+			<form class="form-inline my-5">
+				<input type="text" placeholder="Enter City Name..." id="input" class="form-control">
+				<button type="button" class="btn btn-primary" id="btn">Search</button>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6" id="cityDetails">
+			<h4 id="cityName"></h4>
+			<div id="img"></div>
+			<h5 id="description"></h5>
+		</div>
+		<div class="col-sm-6">
+			<div id="temp"></div>
+			<div id="tempDetails">
+				<div id="highTemp"></div>
+				<div id="lowTemp"></div>
+			</div>
+		</div>
+	</div>
+	<div id="boxes">
+		<div id="box">
+			<h4 id="wind"></h4>
+		</div>
+		<div id="box">
+			<h4 id="humidity"></h4>
+		</div>
+	</div>
+	<hr>
+</div>	
+<div class="container" id="cardDetails">
+	<h3 class="text-center">5-Day Forecast</h3>
+	<div id="cards">
+		<div class="card">
+		<div class="card-body">
+			<h4 class="card-title" id="day1">Sunday</h4>
+			<div id="img1"></div>
+			<div class="card-text" id="temp1"></div>
+		</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title" id="day2">Monday</h4>
+				<div id="img2"></div>
+				<div class="card-text" id="temp2">sone</div>
+			</div>
+		</div>
+		<div class="card">
+		<div class="card-body">
+			<h4 class="card-title" id="day3">Sunday</h4>
+			<div id="img3"></div>
+			<div class="card-text" id="temp3">Some</div>
+		</div>
+		</div>
+		<div class="card">
+		<div class="card-body">
+			<h4 class="card-title" id="day4">Sunday</h4>
+			<div id="img4"></div>
+			<div class="card-text" id="temp4">Some</div>
+		</div>
+		</div>
+		<div class="card">
+		<div class="card-body">
+			<h4 class="card-title" id="day5">Sunday</h4>
+			<div id="img5"></div>
+			<div class="card-text" id="temp5">Some</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/weather.js"></script>
+</body>
+</html>
